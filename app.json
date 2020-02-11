@@ -1,0 +1,39 @@
+{
+  "id": "008def3b-76ea-406d-9e27-09cafc8840d7",
+  "name": "TTT - 2019 ProdKnowledge",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "Telos Team Task",
+  "description": "Telos Team task for education of all employees",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "http://telosteam.dk",
+  "logo": "./logo/TTLogo.JPG",
+  "dependencies": [
+    {
+      "appId": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "publisher": "Microsoft",
+      "name": "System Application",
+      "version": "1.0.0.0"
+    },
+    {
+      "appId": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "publisher": "Microsoft",
+      "name": "Base Application",
+      "version": "15.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "13.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://ALProject4.com/help/",
+  "showMyCode": true,
+  "runtime": "4.0",
+  "features": ["TranslationFile", "GenerateCaptions"] 
+}

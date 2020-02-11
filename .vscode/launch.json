@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "bcsandbox",
+            "server": "http://bcsandbox",
+            "serverInstance": "BC",
+            "authentication": "Windows",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "Recreate"  // TTTEBS -> Slet data - Kun udv!
+        },
+        // DENNE VIRKER IKKE MERE, DA DET ER EN ANDEN VERSION.. (FEJLER PÅ APP.JSON DEPENDENCIES)
+        // {
+        //     "type": "al",
+        //     "request": "launch",
+        //     "name": "Local-bc140",
+        //     "server": "http://localhost:14049",
+        //     "serverInstance": "bc140",
+        //     "authentication": "Windows",
+        //     "startupObjectId": 22,
+        //     "startupObjectType": "Page",
+        //     "breakOnError": true,
+        //     "launchBrowser": true,
+        //     "schemaUpdateMode": "Recreate"  // TTTEBS -> Slet data - kun udv!
+        // },
+    ]
+}
