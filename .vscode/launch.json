@@ -16,19 +16,18 @@
             "enableSqlInformationDebugger": true,
             "schemaUpdateMode": "Recreate"  // TTTEBS -> Slet data - Kun udv!
         },
-        // DENNE VIRKER IKKE MERE, DA DET ER EN ANDEN VERSION.. (FEJLER PÅ APP.JSON DEPENDENCIES)
-        // {
-        //     "type": "al",
-        //     "request": "launch",
-        //     "name": "Local-bc140",
-        //     "server": "http://localhost:14049",
-        //     "serverInstance": "bc140",
-        //     "authentication": "Windows",
-        //     "startupObjectId": 22,
-        //     "startupObjectType": "Page",
-        //     "breakOnError": true,
-        //     "launchBrowser": true,
-        //     "schemaUpdateMode": "Recreate"  // TTTEBS -> Slet data - kun udv!
-        // },
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Local-bc150",
+            "server": "http://localhost:15049",
+            "serverInstance": "bc150",
+            "authentication": "Windows",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "schemaUpdateMode": "Recreate"  // TTTEBS -> Slet data - kun udv!
+        },
     ]
 }

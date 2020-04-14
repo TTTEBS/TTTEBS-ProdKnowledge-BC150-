@@ -53,6 +53,36 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TTTES CreditLimitEvents - Method Customer_OnBeforeModifyEvent - NamedType Text001</note>
         </trans-unit>
+        <trans-unit id="Page 3937746801 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CSVBuffer01</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSVBuffer01 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3937746801 - Action 2908363493 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import CSV</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSVBuffer01 - Action ImportCSV - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3937746801 - Action 2908363493 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Function to delete current content and import a new file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSVBuffer01 - Action ImportCSV - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3937746801 - Action 2908363493 - Method 1377591017 - NamedType 725423048" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select a file to upload</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSVBuffer01 - Action ImportCSV - Method OnAction - NamedType SelectFileToUploadLBL</note>
+        </trans-unit>
+        <trans-unit id="Page 3937746801 - Action 2908363493 - Method 1377591017 - NamedType 2318549970" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Csv Files (*.csv)|*.csv</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSVBuffer01 - Action ImportCSV - Method OnAction - NamedType XmlFilesLBL</note>
+        </trans-unit>
+        <trans-unit id="Page 3937746801 - Action 2908363493 - Method 1377591017 - NamedType 277640809" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File import terminated or canceled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSVBuffer01 - Action ImportCSV - Method OnAction - NamedType ImportErrorLBL</note>
+        </trans-unit>
         <trans-unit id="Page 3157925732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Omsætning pr. land</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -93,36 +123,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TTTES TurnoverCustSetFilter - Action ShowTurnover - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3937746801 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CSVBuffer01</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page CSVBuffer01 - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3937746801 - Action 2908363493 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Import CSV</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page CSVBuffer01 - Action ImportCSV - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3937746801 - Action 2908363493 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Function to delete current content and import a new file.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page CSVBuffer01 - Action ImportCSV - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 3937746801 - Action 2908363493 - Method 1377591017 - NamedType 725423048" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Select a file to upload</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page CSVBuffer01 - Action ImportCSV - Method OnAction - NamedType SelectFileToUploadLBL</note>
-        </trans-unit>
-        <trans-unit id="Page 3937746801 - Action 2908363493 - Method 1377591017 - NamedType 2318549970" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Csv Files (*.csv)|*.csv</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page CSVBuffer01 - Action ImportCSV - Method OnAction - NamedType XmlFilesLBL</note>
-        </trans-unit>
-        <trans-unit id="Page 3937746801 - Action 2908363493 - Method 1377591017 - NamedType 277640809" size-unit="char" translate="yes" xml:space="preserve">
-          <source>File import terminated or canceled</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page CSVBuffer01 - Action ImportCSV - Method OnAction - NamedType ImportErrorLBL</note>
-        </trans-unit>
         <trans-unit id="Report 3974918852 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>MyFirstReport</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -157,41 +157,6 @@
           <source>Sales (LCY)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report MyFirstReport - ReportLabel SalesLCYLBL</note>
-        </trans-unit>
-        <trans-unit id="Report 2872637083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Customer sales statistic</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report CustListBasic - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 2872637083 - ReportLabel 1789044832" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sales statistic</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report CustListBasic - ReportLabel HeadLineLBL</note>
-        </trans-unit>
-        <trans-unit id="Report 2872637083 - ReportLabel 4060150769" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Total</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report CustListBasic - ReportLabel InTotalLBL</note>
-        </trans-unit>
-        <trans-unit id="Report 2872637083 - ReportLabel 152664461" size-unit="char" translate="yes" xml:space="preserve">
-          <source>No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report CustListBasic - ReportLabel NoLBL</note>
-        </trans-unit>
-        <trans-unit id="Report 2872637083 - ReportLabel 2936671407" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report CustListBasic - ReportLabel NameLBL</note>
-        </trans-unit>
-        <trans-unit id="Report 2872637083 - ReportLabel 1877081926" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Country</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report CustListBasic - ReportLabel CountryLBL</note>
-        </trans-unit>
-        <trans-unit id="Report 2872637083 - ReportLabel 1584443560" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sales (LCY)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report CustListBasic - ReportLabel SalesLCYLBL</note>
         </trans-unit>
         <trans-unit id="Report 3504416353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>LIST REPORT BASIC TEMPLATE - WO LANGUAGE</source>
@@ -677,6 +642,41 @@
           <source>Email</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TTTES Sales - Invoice - NamedType EMailCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2872637083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer sales statistic</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CustListBasic - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2872637083 - ReportLabel 1789044832" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales statistic</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CustListBasic - ReportLabel HeadLineLBL</note>
+        </trans-unit>
+        <trans-unit id="Report 2872637083 - ReportLabel 4060150769" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CustListBasic - ReportLabel InTotalLBL</note>
+        </trans-unit>
+        <trans-unit id="Report 2872637083 - ReportLabel 152664461" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CustListBasic - ReportLabel NoLBL</note>
+        </trans-unit>
+        <trans-unit id="Report 2872637083 - ReportLabel 2936671407" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CustListBasic - ReportLabel NameLBL</note>
+        </trans-unit>
+        <trans-unit id="Report 2872637083 - ReportLabel 1877081926" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CustListBasic - ReportLabel CountryLBL</note>
+        </trans-unit>
+        <trans-unit id="Report 2872637083 - ReportLabel 1584443560" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CustListBasic - ReportLabel SalesLCYLBL</note>
         </trans-unit>
         <trans-unit id="XmlPort 3987897160 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>ExportCust01</source>
